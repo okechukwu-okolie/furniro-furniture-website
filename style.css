@@ -15,7 +15,7 @@
     align-items: center;
     background-color: white;
     padding: 10px 40px 10px 40px;
-    width: 1440px;
+    width: 100%;
 
     .logo{
         display: flex;
@@ -46,36 +46,40 @@
     }
 }
 .background img{
-    width: 1440px;
+    width: 1077px;
+    position: relative;
 }
 
  /* < !-- this is the ext section inside the hero --> */
 
  .hero-text{
-    width: 550px;
-    height: 440px;
+    width: 350px;
+    height: 300px;
     background-color: #FFF3E3;
     padding: 30px 20px 30px 40px;
     position: absolute;
-    top: 280px;
-    left: 730px;
+    top: 190px;
+    left: 550px;
 
     h3{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
+        /* position: fixed; */
     }
     h2{
-        font-size: 40px;
-        margin-bottom: 25px;
+        font-size: 30px;
+        margin-bottom: 15px;
         color: #B88E2F;
         font-weight: 900;
+        /* position: absolute; */
     }
     p{
-        font-size: 12px;
-        margin-bottom: 40px;
+        font-size: 11px;
+        margin-bottom: 10px;
         line-height: 2.0em;
         font-weight: 500;
+
     }
     button{
         padding: 17px 45px;
@@ -91,7 +95,7 @@
                 /* < !-- Browse the range section --> */
 
     .browse-the-range{
-        width: 1440px;
+        /* width: 1440px; */
         padding: 20px 40px;
     }
     .browse-the-range-text{
@@ -111,16 +115,17 @@
     text-align: center;
 
     img{
-        width: 430px;
+        width: 320px;
     }
     h4{
         padding-top: 10px;
+        font-size: 22px;
     }
 }
 
 .our-products{
-    width: 1440px;
-    padding: 50px 100px;
+    /* width: 1440px; */
+    padding: 50px 50px;
 
     h3{
         margin-bottom: 35px;
@@ -130,7 +135,7 @@
 }
 .our-products-top-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: center;
     margin-bottom: 20px;
     position: relative;
@@ -139,7 +144,7 @@
         position: absolute;
         z-index: 6;
         opacity: 0.8;
-        height: 440px;
+        height: 380px;
     }
 
     .discount1 {
@@ -238,8 +243,8 @@
 
 .our-products-top-row div {
     background-color: #F4F5F7;
-    width: 295px;
-    height: 440px;
+    width: 225px;
+    height: 380px;
     margin-left: 10px;
     
     h4,p,span{
@@ -255,10 +260,11 @@
         font-size: 20px;
     }
     img{
-        width: 295px;
+        width: 225px;
     }
     span{
         font-weight: 700;
+        font-size: 12px;
     }
     .strike{
         text-decoration: line-through;
@@ -272,6 +278,7 @@
     justify-content: center;
 
     button{
+        margin-top: 20px;
         width: 170px;
         height: 40px;
         color: #B88E2F;
@@ -285,30 +292,42 @@
             /* < !-- beautiful rooms section --> */
 
 .beautiful-room{
-    width: 1440px;
+    /* width: 1440px; */
     padding: 40px;
     background-color: #FCF8F3;
     display: flex;
     justify-content: space-between;
    
     .beautiful-room-text{
-        padding-left: 90px;
+        padding-left: 30px;
         padding-top: 150px;
+        padding-right: 20px;
     }
 
     h2{
-        font-size: 36px;
+        font-size: 30px;
+    }
+    p{
+        font-size: 13px;
+        margin-top: 10px;
     }
     button{
         margin-top: 20px;
-        padding: 10px 40px;
+        padding: 10px 20px;
+        opacity: .7;
         border: none;
         color: white;
         background-color: #B88E2F;
     }
 
     #two{
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+    }
+    img{
+        width: 320px;
+        margin-right: 20px;
     }
 }
 
@@ -316,8 +335,9 @@
                  /* < !-- funiro funiture section --> */
 
 .furniro-furniture{
-    width: 1440px;
+    /* width: 1440px; */
     height: 800px;
+    background-color: #E97171;
     /* background-color: #B88E2F; */
 
     .furniro-furniture-text{
@@ -337,71 +357,85 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding: 0px 7px;
+    
    
 
     .furniro-furniture-box1-img1{
         position: absolute;
         top: -55px;
+        width: 70px;
     }
     .furniro-furniture-box1-img2{
         position: absolute;
-        top: 350px;
-        left: -10px;
+        top: 300px;
+        left: 7px;
+        width: 140px;
     }
 
     .furniro-furniture-box1-img3{
         position: absolute   ;
-        left: 90px;
-        top: 16px;
+        left: 85px;
+        top: 53px;
+        width: 340px;
+        
     }
 
     .furniro-furniture-box1-img4{
         position: absolute;
         z-index: 3;
-        left: 555px;
-        top: 94px;
+        left: 432px;
+        top: 120px;
+        width:220px;
     }
 
     .furniro-furniture-box1-img5{
         position: absolute;
-        left: 866px;
-        top: 44px;
+        left: 661px;
+        top: 84px;
         z-index: 4;
+        width: 200px;
+        
     }
     .furniro-furniture-box1-img6{
         position: absolute;
         z-index: 5;
-        left: 866px;
-        top: 410px;
+        left: 662px;
+        top: 332px;
+        width: 200px;
     }
 
     .furniro-furniture-box1-img7{
         position: absolute;
         z-index: 6;
-        top: 410px;
-        left: 1065px;
+        top: 333px;
+        left: 870px;
+        width: 190px;
+        
     }
 
     .furniro-furniture-box1-img8{
         position: absolute;
         z-index: 7;
-        left: 1176px;
-        top:-40px
-
+        left: 870px;
+        top: 10px;
+        width: 190px;
+        
     }
 
         .furniro-furniture-box1-img9 {
             position: absolute;
             z-index: 8;
-            left: 190px;
-            top: 350px
+            left: 155px;
+            top: 300px;
+            width: 270px;
         }
 }
              /* < !-- the footer section --> */
 
 .footer-section{
 
-    width: 1440px;
+    /* width: 1440px; */
     padding-top: 70px;
     padding-left: 50px;
     padding-right: 70px;
